@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>
+        Mi segunda practica HTML
+    </title>
+    </head>
+    <body>
+        <form> <!-- Los formularios es una forma basica para solicitar informacion a un usuario-->
+            <fieldset> <!--Agrupa formularios-->
+                <legend>Datos personales</legend> <!--Agraga un titulo a la caja del form-->
+                <label>Edad</label>
+                <input type="number" placeholder="Ingrese su edad ..."/><!--crear un box para que el usuario ingrese informacion-->
+                <br />
+                <label>Contraseña</label>
+                <input type="password"/>
+                <br />
+                <label>Nombre</label>
+                <input type="text"/>
+                <br />
+                <input type="submit" value="Envia"/><!--Boton de enviar informacion -->
+            </fieldset>    
+            <textarea></textarea><!--Para que un usuario pueda ingresar texto en una caja-->
+            <button>Aceptar</button><!--Boton parecido a submit, mas usada ya que se le pueden pasar elementos de CSS -->
+            <select>
+                <option value="goku">Goku</option> <!--cuando enviemos el formulario se envia la info que esta en value-->
+                <option value="gohan">Gohan</option>
+                <option value="veguetta">Veguetta</option>
+            </select><!--muestra una lista de opciones para seleccionar con la etiqueta de option -->
+        </form>
+        <table><!--Crear tabla en nuestra pag-->
+            <thead><!--solo para generar la cabezera de la table-->
+                <tr>
+                    <th>Mes</th>
+                    <th>Ahorros</th>
+                </tr>
+            </thead>
+            <tbody><!--Filas de la tabla (los registros de la tabla)-->
+                <tr>
+                    <td>Enero</td>
+                    <td>1000$</td>
+                </tr>
+                <tr>
+                    <td>Febrero</td>
+                    <td>500$</td>
+                </tr>
+            </tbody>
+            <tfoot><!--Para agregar un pie a la tabla-->
+                <tr>
+                    <td>Suma Total</td>
+                    <td>1500$</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>
